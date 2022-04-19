@@ -1,0 +1,13 @@
+.slideshow {
+  position: relative;
+  display: flex;
+}
+.slide {
+  width: 100px;
+  animation: slideshow 10s linear infinite;
+  background-color: red;
+}
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
