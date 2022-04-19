@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@react-spring/parallax': 9.4.5-beta.1
   '@react-spring/web': ^9.4.4
+  apropos: ^0.6.2
   eslint: 8.13.0
   eslint-config-next: 12.1.5
   next: 12.1.5
@@ -13,6 +14,7 @@ specifiers:
 dependencies:
   '@react-spring/parallax': 9.4.5-beta.1_react-dom@18.0.0+react@18.0.0
   '@react-spring/web': 9.4.4_react-dom@18.0.0+react@18.0.0
+  apropos: 0.6.2
   next: 12.1.5_react-dom@18.0.0+react@18.0.0
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
@@ -489,6 +491,10 @@ packages:
     dependencies:
       color-convert: 2.0.1
     dev: true
+
+  /apropos/0.6.2:
+    resolution: {integrity: sha512-iz4Yk3iNe46RofpRq6vrAb+M66cwsnRLqkJHHNDxHsAl7ND4a7QCIx38Z0gd4LxOX/R8NOAcRh7VmOGTkYWU3g==}
+    dev: false
 
   /argparse/2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
