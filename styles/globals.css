@@ -125,3 +125,96 @@ a {
 .wrapper p {
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+.centered-fullscreen {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+}
+
+
+#right-arm {
+  animation: shake 400ms linear infinite alternate;
+  transform-origin: center;
+}
+
+#right-hand {
+  animation: wave 400ms linear infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+
+@keyframes shake {
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+
+@keyframes wave {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+#left-fireworks, #right-fireworks {
+  animation: expand 2s ease-out forwards infinite;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+.star {
+  animation: spin 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes expand {
+  from {
+    transform: scale(0.5) ;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 0.2;
+    margin-top: 200px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(50px) rotate(360deg);
+  }
+}
+
+.line {
+  animation: reveal 2s ease infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes reveal {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(1);
+  }
+}
