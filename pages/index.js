@@ -5,11 +5,14 @@ export default function Home() {
       <a href="/ScrollingImage">Scrolling Image Parallax</a>
       <a href="/carousel">Infinite Slideshow</a>
       <a href="/zoom">Zoom With Scroll</a>
-      <a href="/PersistentHire">Persistent Hire Button</a>
-      <a href="/VerticalScroll">Vertical Scroll</a>
-      <a href="/ParallaxZoom">Zoom on Scroll with Parallax</a>
+      <a href="/VerticalScroll">Horizontal Scroll</a>
       <a href="/AnimatedIcon">Check Icon with Animation</a>
       <a href="/RoundDiv">Round Div</a>
+      <a href="/HighlightOnScroll">Highlight on Scroll</a>
+      <a href="/MotionScroll">Reveal with scroll motion</a>
+
+      <a href="/ParallaxZoom">[UNDONE] Zoom on Scroll with Parallax</a>
+      <a href="/PersistentHire">[UNDONE] Persistent Hire Button</a>
     </div>
   );
 }
